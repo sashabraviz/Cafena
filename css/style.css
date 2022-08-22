@@ -1337,14 +1337,16 @@ body._lock {
   color: #EAB665;
 }
 
-.news__a a {
+.news__a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 0.25rem;
+}
+
+.news__a a {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -1355,6 +1357,7 @@ body._lock {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  margin-right: 0.25rem;
 }
 
 .news__a a:hover {
@@ -1445,29 +1448,29 @@ body._lock {
 
 @-webkit-keyframes arrow__show {
   0% {
-    top: -25px;
+    top: -1.5625rem;
   }
 
   50% {
-    top: -40px;
+    top: -2.5rem;
   }
 
   100% {
-    top: -25px;
+    top: -1.5625rem;
   }
 }
 
 @keyframes arrow__show {
   0% {
-    top: -25px;
+    top: -1.5625rem;
   }
 
   50% {
-    top: -40px;
+    top: -2.5rem;
   }
 
   100% {
-    top: -25px;
+    top: -1.5625rem;
   }
 }
 
