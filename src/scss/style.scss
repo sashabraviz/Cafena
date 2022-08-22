@@ -1189,11 +1189,13 @@ letter-spacing: 0.04em;
 }
 @keyframes arrow__show {
   0% {
-     top: -1.5625rem;
+     top: -25px;
   }
-
+  50%{
+    top: -40px;
+  }
   100% {
-    top: -3.125rem;
+    top: -25px;
   }
 }
 .footer__body {
