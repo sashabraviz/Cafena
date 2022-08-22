@@ -1124,10 +1124,9 @@ max-width: 15.6875rem;
    color: #EAB665;
 }
 .news__a {
+  display: flex;
+  align-items: center;
   a {
-    display: flex;
-    align-items: center;
-    gap: .25rem;
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
@@ -1136,6 +1135,7 @@ line-height: 1.625rem;
 letter-spacing: 0.04em;
 color: #EAB665;
 transition: all .3s;
+margin-right: .25rem;
 &:hover {
   text-decoration: underline;
 }
@@ -1189,13 +1189,13 @@ letter-spacing: 0.04em;
 }
 @keyframes arrow__show {
   0% {
-     top: -25px;
+     top: -1.5625rem;
   }
   50%{
-    top: -40px;
+    top: -2.5rem;
   }
   100% {
-    top: -25px;
+    top: -1.5625rem;
   }
 }
 .footer__body {
